@@ -5,7 +5,6 @@ import by.kovalski.eisservlet.command.impl.*;
 public enum CommandType {
   LOGIN(new LoginCommand()),
   LOGOUT(new LogoutCommand()),
-  ADD_USER(new AddUserCommand()),
   DEFAULT(new DefaultCommand()),
   REGISTRATION(new RegistrationCommand()),
   TO_REGISTRATION(new ToRegFormCommand()),

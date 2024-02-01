@@ -1,6 +1,11 @@
 package by.kovalski.eisservlet.util;
 
-public class RequestParameters {
+public class RequestAndSessionData {
+
+  private RequestAndSessionData(){
+
+  }
+
   public static final String PASSWORD = "password";
   public static final String LOGIN = "login";
   public static final String USER = "user";
@@ -11,5 +16,4 @@ public class RequestParameters {
   public static final String COMMAND = "command";
   public static final String REGISTRATION_MESSAGE = "reg_message";
   public static final String ID = "id";
-  public static final String USER_NAME = "user_name";
 }

@@ -5,10 +5,9 @@
 </head>
 <body>
 
-Hello (forward) ${login}
-<br/>
-Hello(redirect) ${user_name}
-<br/>
+Hello, ${login}
+
+
 <br/>
 <hr>
 ${filter_attr}

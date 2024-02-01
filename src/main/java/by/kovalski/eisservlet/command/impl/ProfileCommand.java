@@ -7,22 +7,24 @@ import by.kovalski.eisservlet.exception.ServiceException;
 import by.kovalski.eisservlet.service.UserService;
 import by.kovalski.eisservlet.service.impl.UserServiceImpl;
 import by.kovalski.eisservlet.util.Pages;
-import by.kovalski.eisservlet.util.RequestParameters;
+import by.kovalski.eisservlet.util.RequestAndSessionData;
 import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpSession;
 
 public class ProfileCommand implements Command {
   @Override
   public String execute(HttpServletRequest request) throws CommandException {
-    String login = (String) request.getAttribute(RequestParameters.LOGIN);
+    HttpSession session = request.getSession();
+    String login = (String) session.getAttribute(RequestAndSessionData.LOGIN);
     UserService userService = UserServiceImpl.getInstance();
     String page;
     try {
       User user = userService.findUserByLogin(login);
-      request.setAttribute(RequestParameters.ID, user.getId());
-      request.setAttribute(RequestParameters.FIRST_NAME, user.getFirstName());
-      request.setAttribute(RequestParameters.LAST_NAME, user.getLastName());
-      request.setAttribute(RequestParameters.LOGIN, user.getLogin());
-      request.setAttribute(RequestParameters.EMAIL, user.getEmail());
+      request.setAttribute(RequestAndSessionData.ID, user.getId());
+      request.setAttribute(RequestAndSessionData.FIRST_NAME, user.getFirstName());
+      request.setAttribute(RequestAndSessionData.LAST_NAME, user.getLastName());
+      request.setAttribute(RequestAndSessionData.LOGIN, user.getLogin());
+      request.setAttribute(RequestAndSessionData.EMAIL, user.getEmail());
       page = Pages.PROFILE;
     } catch (ServiceException e) {
       throw new CommandException(e);

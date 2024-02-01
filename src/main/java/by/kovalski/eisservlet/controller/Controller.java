@@ -10,7 +10,7 @@ import jakarta.servlet.annotation.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import static by.kovalski.eisservlet.util.RequestParameters.*;
+import static by.kovalski.eisservlet.util.RequestAndSessionData.*;
 
 @WebServlet(name = "helloServlet", urlPatterns = "/controller")
 public class Controller extends HttpServlet {

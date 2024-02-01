@@ -9,66 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9186ab4-561c-4a56-8a37-3284b346f45e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/command/CommandType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/command/Router.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/command/impl/AddUserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/command/impl/DefaultCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/command/impl/LoginCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/command/impl/LogoutCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/command/impl/ProfileCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/command/impl/RegistrationCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/command/impl/ToRegFormCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/controller/filter/ForwardFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/controller/filter/PageRedirectSecurityFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/controller/filter/PreControllerFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/controller/filter/PreIndexFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/controller/listener/ServletContextListenerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/controller/listener/SessionAttributeListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/controller/listener/SessionCreateListenerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/dao/BaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/dbconnection/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/dbconnection/ConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/dbconnection/DatabasePropertiesReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/dbconnection/ProxyConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/entity/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/exception/CommandException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/exception/ConnectionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/exception/DaoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/exception/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/factory/UserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/factory/impl/UserFactoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/util/Pages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/util/RequestAttributes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/util/RequestParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/error/error_404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/error/error_500.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/profile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/reg.jsp" afterDir="false" />
+    <list default="true" id="f9186ab4-561c-4a56-8a37-3284b346f45e" name="Changes" comment="application">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/command/CommandType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/command/CommandType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/command/impl/AddUserCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/command/impl/LoginCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/command/impl/LoginCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/command/impl/ProfileCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/command/impl/ProfileCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/command/impl/RegistrationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/command/impl/RegistrationCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/util/RequestAttributes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/util/RequestParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/kovalski/eisservlet/util/RequestAndSessionData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/main.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,11 +159,24 @@
       <workItem from="1706614978874" duration="1353000" />
       <workItem from="1706652963638" duration="617000" />
       <workItem from="1706706715201" duration="248000" />
-      <workItem from="1706779910200" duration="15772000" />
+      <workItem from="1706779910200" duration="20769000" />
     </task>
+    <task id="LOCAL-00001" summary="application">
+      <option name="closed" value="true" />
+      <created>1706799250180</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706799250181</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="application" />
+    <option name="LAST_COMMIT_MESSAGE" value="application" />
   </component>
 </project>
